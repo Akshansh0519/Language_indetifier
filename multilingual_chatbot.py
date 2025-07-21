@@ -9,7 +9,7 @@ import re
 from collections import Counter
 
 # Set your Gemini API key here
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAL98c1qUXkdf8ewPhL8mnyngmEVfV5ShQ"  # <-- Replace with your Gemini API key
+os.environ["GOOGLE_API_KEY"] = "Your_API_Key"  # <-- Replace with your Gemini API key
 
 # Configure Gemini LLM
 llm = Gemini(model="models/gemini-1.5-pro-latest")
